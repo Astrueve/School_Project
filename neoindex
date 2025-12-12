@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/embleme.png"/>
+    <link rel="stylesheet" href="../src/style.css">
+
+    <title>D&D</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" id="logo">
+        <b>
+            <a href="#" class="header">ACCUEIL</a>
+            <a href="https://www.dndbeyond.com/" class="header" target="_blank">SITE OFFICIEL</a>
+            <a href="https://dndstore.wizards.com/eu/fr" class="header" target="_blank"> SITE MARCHAND</a>
+        </b>  
+    </header>
+    <main>
+        <nav>
+            <ol class="menu">
+                <li>
+                    <a href="#presentation">Présentation</a>
+                </li>
+                <li>
+                    <a href="#but_du_jeu">But du jeu</a>
+                </li>
+                <li>
+                    <a href="#mecanismes">Mécanismes de jeu</a>
+                </li>
+                <li>
+                    <a href="#role_md">Rôle du Maître de Donjon</a> 
+                </li>
+                <li>
+                    <a href="#deroulement_partie">Déroulement du jeu et règles</a>
+                </li>
+                <li>
+                    <a href="#classes_races">Classes et Races</a>
+                    <ol>
+                        <li>
+                            <a href="#classes">Classes</a>
+                            <ul>
+                                <li>
+                                    <a href="#barbare">Barbare</a>
+                                </li>
+                                <li>
+                                    <a href="#barde">Barde</a>
+                                </li>
+                                <li>
+                                    <a href="#clerc">Clerc</a>
+                                </li>
+                                <li>
+                                    <a href="#druide">Druide</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#classes">Races</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#comment_se_lancer">Comment se lancer?</a>
+                    <ol>
+                        <li>
+                            <a href="#creer_perso">Créer un personnage</a>
+                        </li>
+                        <li>
+                            <a href="#trouver_un_groupe">Trouver un groupe de jeu</a>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </nav>
+        <div id="tableau">
+            <table>
+                <tr>
+                    <th>Nombre de Joueurs</th>
+                    <td>3-5</td>
+                </tr>
+                <tr>
+                    <th>Temps de Jeu Moyen</th>
+                    <td>3-5 Heures</td>
+                </tr>
+                <tr>
+                    <th>Type de Jeu</th>
+                    <td>Jeu de Rôle</td>
+                </tr>
+                <tr>
+                    <th>Age</th>
+                    <td>Pas déterminé</td>
+                </tr>
+                <tr>
+                    <th>Mécanisme </th>
+                    <td>Tour par Tour</td>
+                    
+                </tr>
+            </table>
+        </div>
+        <div class="content">
+            <h1>Dungeons & Dragons</h1>
+            <h2 id="presentation">Présentation</h2>
+            <p>Dungeons & Dragons (D&D) est un jeu de rôle sur table créé par Gary 
+                Gygax et Dave Arneson, publié pour la première fois en 1974 par 
+                Tactical Studies Rules, Inc. (TSR). Il est largement considéré comme 
+                le premier jeu de rôle moderne et a eu une influence majeure sur le développement du genre.</p>
+
+            <h2 id="but_du_jeu">But du jeu</h2>
+            <p>Le but principal de D&D est de permettre aux joueurs d'incarner des 
+                personnages fictifs dans un monde imaginaire, souvent médiéval 
+                fantastique, et de vivre des aventures épiques. Les joueurs 
+                collaborent pour explorer des donjons, combattre des monstres, 
+                résoudre des énigmes et accomplir des quêtes, tout en développant 
+                les compétences et les capacités de leurs personnages au fur et à mesure des campagnes.</p>
+
+            <h2 id="mecanismes">Mécanismes de jeu</h2>
+            <p>D&D utilise un système de règles basé sur des dés à plusieurs faces (notamment le dé à 20 faces, ou d20)
+                pour déterminer les résultats des actions entreprises par les personnages. 
+                Les joueurs créent leurs personnages en choisissant une race (comme humain, elfe, nain, etc.),
+                une classe (comme guerrier, magicien, voleur, etc.), et en attribuant des caractéristiques
+                (force, dextérité, constitution, intelligence, sagesse, charisme).</p>
+
+            <h2 id="role_md">Rôle du Maître de Donjon</h2>
+            <p>Un joueur assume le rôle de Maître de Donjon (MD), qui est responsable de la création 
+                et de la narration de l'histoire, de la gestion des règles, et de l'incarnation des 
+                personnages non-joueurs (PNJ) et des monstres. Le MD guide les joueurs à travers 
+                leurs aventures, en décrivant les environnements, en posant des défis, et en arbitant 
+                les actions des joueurs.</p>
+                
+            <h2 id="deroulement_partie">Déroulement du jeu et règles</h2>
+            <p>Le jeu se déroule généralement en sessions où les joueurs se réunissent autour d'une table 
+                pour jouer. Chaque session peut durer plusieurs heures, et une campagne peut s'étendre 
+                sur plusieurs sessions, voire des mois ou des années: la session la plus longue à ce jour dure depuis 40ans.
+                Les règles de D&D sont détaillées dans divers livres de règles, dont le Manuel des Joueurs, 
+                le Guide du Maître, et le Manuel des Monstres. Ces livres fournissent des détails sur 
+                la création de personnages, les mécanismes de combat, la magie, et d'autres aspects du jeu.</p>
+            <p>Voici une série de vidéos qui présentes les<a href="https://youtube.com/playlist?list=PLEez2z2WJ5IAozqWKE8St666GY3p9s6uJ&si=n2FBO8ePIdf1kSv0" target="_blank"> bases </a>de D&D</p>
+            <h2 id="classes_races">Classes et Races</h2>
+            <p>Voici quelques-unes des principales classes et races disponibles dans Dungeons & Dragons :</p>
+            <h3 id="classes">Classes :</h3>
+            <ul>
+                <li id="barbare" class="liste_classe">
+                    <div class="texte_classes">
+                        <div class="titre_classes">
+                            <img src="../public/images/barbare_logo.jpeg" alt="Barbare Logo" class="logo_classes">
+                            <h4> 
+                                Barbare
+                            </h4>
+                        </div>
+                        <p>
+                            Les barbares sont des guerriers qui puisent leur force dans leur rage. 
+                            Ils sont connus pour leur robustesse et leur capacité à infliger des dégâts 
+                            considérables en combat rapproché.
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Capacité primaire</th>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <th>Matrice de points de vie</th>
+                                <td>d12 par niveau barbare</td>
+                            </tr>
+                            <tr>
+                                <th>Jets de sauvegarde</th>
+                                <td>Force et Constitution</td>
+                            </tr>
+                            <tr>
+                                <th>Compétences</th>
+                                <td>
+                                Choisissez 2 :
+                                <ul>
+                                    <li>Manipulation des animaux</li>
+                                    <li>Athlétisme</li>
+                                    <li>Intimidation</li>
+                                    <li>Nature</li>
+                                    <li>Perception</li>
+                                    <li>Survie</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Compétences en armes</th>
+                                <td>Armes simples et martiales</td>
+                            </tr>
+                            <tr>
+                                <th>Entraînement aux armures</th>
+                                <td>Armures et boucliers légers et moyens</td>
+                            </tr>
+                            <tr>
+                                <th>Équipement de démarrage</th>
+                                <td>
+                                Choisissez A ou B :
+                                <ul>
+                                    <li>
+                                    <span class="option-title">Option A :</span>
+                                    Grande hache, 4 haches à main, pack de l'explorateur, et 15 PO
+                                    </li>
+                                    <li>
+                                    <span class="option-title">Option B :</span>
+                                    75 PO
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="../public/images/barbare.png" alt="Barbare Image" class="image_classes" frameborder="0">
+
+                </li>
+                <li id="barde" class="liste_classe">
+                    <div class="texte_classes">
+                        <div class="titre_classes">
+                            <img src="../public/images/barde_logo.jpeg" alt="Barde Logo" class="logo_classes">
+                            <h4> 
+                                Barde
+                            </h4>
+                        </div>
+                        <p>
+                            Les bardes sont des artistes qui utilisent la musique et la magie 
+                            pour inspirer leurs alliés et déstabiliser leurs ennemis. Ils sont également 
+                            compétents dans de nombreuses compétences et peuvent jouer divers rôles au sein d'un groupe.
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Capacité primaire</th>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <th>Matrice de points de vie</th>
+                                <td>d12 par niveau barbare</td>
+                            </tr>
+                            <tr>
+                                <th>Jets de sauvegarde</th>
+                                <td>Force et Constitution</td>
+                            </tr>
+                            <tr>
+                                <th>Compétences</th>
+                                <td>
+                                Choisissez 2 :
+                                <ul>
+                                    <li>Manipulation des animaux</li>
+                                    <li>Athlétisme</li>
+                                    <li>Intimidation</li>
+                                    <li>Nature</li>
+                                    <li>Perception</li>
+                                    <li>Survie</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Compétences en armes</th>
+                                <td>Armes simples et martiales</td>
+                            </tr>
+                            <tr>
+                                <th>Entraînement aux armures</th>
+                                <td>Armures et boucliers légers et moyens</td>
+                            </tr>
+                            <tr>
+                                <th>Équipement de démarrage</th>
+                                <td>
+                                Choisissez A ou B :
+                                <ul>
+                                    <li>
+                                    <span class="option-title">Option A :</span>
+                                    Grande hache, 4 haches à main, pack de l'explorateur, et 15 PO
+                                    </li>
+                                    <li>
+                                    <span class="option-title">Option B :</span>
+                                    75 PO
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="../public/images/barde.png" alt="Barde Image" class="image_classes" frameborder="0">
+                </li>
+                <li id="clerc" class="liste_classe">
+                    <div class="texte_classes">
+                        <div class="titre_classes">
+                            <img src="../public/images/clerc_logo.jpeg" alt="Clerc Logo" class="logo_classes">
+                            <h4> 
+                                Clerc
+                            </h4>
+                        </div>
+                        <p>
+                            Les clercs sont des prêtres ou des serviteurs divins qui canalisent 
+                            la puissance de leurs dieux pour soigner, protéger et combattre. 
+                            Ils jouent souvent un rôle crucial dans le soutien de leur groupe.
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Capacité primaire</th>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <th>Matrice de points de vie</th>
+                                <td>d12 par niveau barbare</td>
+                            </tr>
+                            <tr>
+                                <th>Jets de sauvegarde</th>
+                                <td>Force et Constitution</td>
+                            </tr>
+                            <tr>
+                                <th>Compétences</th>
+                                <td>
+                                Choisissez 2 :
+                                <ul>
+                                    <li>Manipulation des animaux</li>
+                                    <li>Athlétisme</li>
+                                    <li>Intimidation</li>
+                                    <li>Nature</li>
+                                    <li>Perception</li>
+                                    <li>Survie</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Compétences en armes</th>
+                                <td>Armes simples et martiales</td>
+                            </tr>
+                            <tr>
+                                <th>Entraînement aux armures</th>
+                                <td>Armures et boucliers légers et moyens</td>
+                            </tr>
+                            <tr>
+                                <th>Équipement de démarrage</th>
+                                <td>
+                                Choisissez A ou B :
+                                <ul>
+                                    <li>
+                                    <span class="option-title">Option A :</span>
+                                    Grande hache, 4 haches à main, pack de l'explorateur, et 15 PO
+                                    </li>
+                                    <li>
+                                    <span class="option-title">Option B :</span>
+                                    75 PO
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="../public/images/clerc.png" alt="Clerc Image" class="image_classes" frameborder="0">
+                </li>
+                <li id="druide" class="liste_classe">
+                    <div class="texte_classes">
+                        <div class="titre_classes">
+                            <img src="../public/images/druide_logo.jpeg" alt="Druide Logo" class="logo_classes">
+                            <h4> 
+                                Druide
+                            </h4>
+                        </div>
+                        <p>
+                            Les druides sont des gardiens de la nature qui peuvent se transformer 
+                            en animaux et manipuler les forces naturelles. Ils possèdent une 
+                            connexion profonde avec le monde naturel et peuvent utiliser la magie 
+                            pour soigner, invoquer des créatures, et contrôler les éléments.
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Capacité primaire</th>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <th>Matrice de points de vie</th>
+                                <td>d12 par niveau barbare</td>
+                            </tr>
+                            <tr>
+                                <th>Jets de sauvegarde</th>
+                                <td>Force et Constitution</td>
+                            </tr>
+                            <tr>
+                                <th>Compétences</th>
+                                <td>
+                                Choisissez 2 :
+                                <ul>
+                                    <li>Manipulation des animaux</li>
+                                    <li>Athlétisme</li>
+                                    <li>Intimidation</li>
+                                    <li>Nature</li>
+                                    <li>Perception</li>
+                                    <li>Survie</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Compétences en armes</th>
+                                <td>Armes simples et martiales</td>
+                            </tr>
+                            <tr>
+                                <th>Entraînement aux armures</th>
+                                <td>Armures et boucliers légers et moyens</td>
+                            </tr>
+                            <tr>
+                                <th>Équipement de démarrage</th>
+                                <td>
+                                Choisissez A ou B :
+                                <ul>
+                                    <li>
+                                    <span class="option-title">Option A :</span>
+                                    Grande hache, 4 haches à main, pack de l'explorateur, et 15 PO
+                                    </li>
+                                    <li>
+                                    <span class="option-title">Option B :</span>
+                                    75 PO
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="../public/images/druide.png" alt="Clerc Image" class="image_classes" frameborder="0">
+                </li>
+                <li id="guerrier" class="liste_classe">
+                    <div class="texte_classes">
+                        <div class="titre_classes">
+                            <img src="../public/images/guerrier_logo.jpeg" alt="Guerrier Logo" class="logo_classes">
+                            <h4> 
+                                Guerrier
+                            </h4>
+                        </div>
+                        <p>
+                            Les guerriers sont des combattants polyvalents, capables de manier une variété 
+                            d'armes et d'armures. Ils excellent dans le combat physique et peuvent adopter 
+                            différents styles de combat en fonction de leurs compétences et de leur race.
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Capacité primaire</th>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <th>Matrice de points de vie</th>
+                                <td>d12 par niveau barbare</td>
+                            </tr>
+                            <tr>
+                                <th>Jets de sauvegarde</th>
+                                <td>Force et Constitution</td>
+                            </tr>
+                            <tr>
+                                <th>Compétences</th>
+                                <td>
+                                Choisissez 2 :
+                                <ul>
+                                    <li>Manipulation des animaux</li>
+                                    <li>Athlétisme</li>
+                                    <li>Intimidation</li>
+                                    <li>Nature</li>
+                                    <li>Perception</li>
+                                    <li>Survie</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Compétences en armes</th>
+                                <td>Armes simples et martiales</td>
+                            </tr>
+                            <tr>
+                                <th>Entraînement aux armures</th>
+                                <td>Armures et boucliers légers et moyens</td>
+                            </tr>
+                            <tr>
+                                <th>Équipement de démarrage</th>
+                                <td>
+                                Choisissez A ou B :
+                                <ul>
+                                    <li>
+                                    <span class="option-title">Option A :</span>
+                                    Grande hache, 4 haches à main, pack de l'explorateur, et 15 PO
+                                    </li>
+                                    <li>
+                                    <span class="option-title">Option B :</span>
+                                    75 PO
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="../public/images/guerrier.png" alt="Guerrier Image" class="image_classes" frameborder="0">
+                </li>
+                <li id="moine" class="liste_classe">
+                    <div class="texte_classes">
+                        <div class="titre_classes">
+                            <img src="../public/images/moine_logo.jpeg" alt="Moine Logo" class="logo_classes">
+                            <h4> 
+                                Moine
+                            </h4>
+                        </div>
+                        <p>
+                            Les moines sont des maîtres des arts martiaux qui utilisent leur 
+                            discipline mentale et physique pour combattre. Ils peuvent canaliser 
+                            une énergie intérieure appelée "ki" pour effectuer des exploits en combat.
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Capacité primaire</th>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <th>Matrice de points de vie</th>
+                                <td>d12 par niveau barbare</td>
+                            </tr>
+                            <tr>
+                                <th>Jets de sauvegarde</th>
+                                <td>Force et Constitution</td>
+                            </tr>
+                            <tr>
+                                <th>Compétences</th>
+                                <td>
+                                Choisissez 2 :
+                                <ul>
+                                    <li>Manipulation des animaux</li>
+                                    <li>Athlétisme</li>
+                                    <li>Intimidation</li>
+                                    <li>Nature</li>
+                                    <li>Perception</li>
+                                    <li>Survie</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Compétences en armes</th>
+                                <td>Armes simples et martiales</td>
+                            </tr>
+                            <tr>
+                                <th>Entraînement aux armures</th>
+                                <td>Armures et boucliers légers et moyens</td>
+                            </tr>
+                            <tr>
+                                <th>Équipement de démarrage</th>
+                                <td>
+                                Choisissez A ou B :
+                                <ul>
+                                    <li>
+                                    <span class="option-title">Option A :</span>
+                                    Grande hache, 4 haches à main, pack de l'explorateur, et 15 PO
+                                    </li>
+                                    <li>
+                                    <span class="option-title">Option B :</span>
+                                    75 PO
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="../public/images/moine.png" alt="Moine Image" class="image_classes" frameborder="0">
+                </li>
+                <li id="paladin" class="liste_classe">
+                    <div class="texte_classes">
+                        <div class="titre_classes">
+                            <img src="../public/images/paladin_logo.jpeg" alt="Paladin Logo" class="logo_classes">
+                            <h4> 
+                                Paladin
+                            </h4>
+                        </div>
+                        <p>
+                            Les paladins sont des guerriers sacrés qui jurent de défendre la justice 
+                            et de protéger les innocents. Ils combinent des compétences martiales 
+                            iavec des pouvoirs divins pour soigner et combattre le mal.
+                            ls ont une affinité de combat contre les mmorts vivants et les démons.
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Capacité primaire</th>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <th>Matrice de points de vie</th>
+                                <td>d12 par niveau barbare</td>
+                            </tr>
+                            <tr>
+                                <th>Jets de sauvegarde</th>
+                                <td>Force et Constitution</td>
+                            </tr>
+                            <tr>
+                                <th>Compétences</th>
+                                <td>
+                                Choisissez 2 :
+                                <ul>
+                                    <li>Manipulation des animaux</li>
+                                    <li>Athlétisme</li>
+                                    <li>Intimidation</li>
+                                    <li>Nature</li>
+                                    <li>Perception</li>
+                                    <li>Survie</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Compétences en armes</th>
+                                <td>Armes simples et martiales</td>
+                            </tr>
+                            <tr>
+                                <th>Entraînement aux armures</th>
+                                <td>Armures et boucliers légers et moyens</td>
+                            </tr>
+                            <tr>
+                                <th>Équipement de démarrage</th>
+                                <td>
+                                Choisissez A ou B :
+                                <ul>
+                                    <li>
+                                    <span class="option-title">Option A :</span>
+                                    Grande hache, 4 haches à main, pack de l'explorateur, et 15 PO
+                                    </li>
+                                    <li>
+                                    <span class="option-title">Option B :</span>
+                                    75 PO
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="../public/images/paladin.png" alt="Paladin Image" class="image_classes" frameborder="0">
+                </li>
+                <li id="rodeur" class="liste_classe">
+                    <div class="texte_classes">
+                        <div class="titre_classes">
+                            <img src="../public/images/rodeur_logo.jpeg" alt="Rodeur Logo" class="logo_classes">
+                            <h4> 
+                                Rodeur
+                            </h4>
+                        </div>
+                        <p>
+                            Les rôdeurs sont des chasseurs et des éclaireurs qui excellent dans 
+                            la survie en milieu sauvage. Ils sont souvent accompagnés d'un animal 
+                            compagnon et possèdent des compétences de pistage et de combat à distance.
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Capacité primaire</th>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <th>Matrice de points de vie</th>
+                                <td>d12 par niveau barbare</td>
+                            </tr>
+                            <tr>
+                                <th>Jets de sauvegarde</th>
+                                <td>Force et Constitution</td>
+                            </tr>
+                            <tr>
+                                <th>Compétences</th>
+                                <td>
+                                Choisissez 2 :
+                                <ul>
+                                    <li>Manipulation des animaux</li>
+                                    <li>Athlétisme</li>
+                                    <li>Intimidation</li>
+                                    <li>Nature</li>
+                                    <li>Perception</li>
+                                    <li>Survie</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Compétences en armes</th>
+                                <td>Armes simples et martiales</td>
+                            </tr>
+                            <tr>
+                                <th>Entraînement aux armures</th>
+                                <td>Armures et boucliers légers et moyens</td>
+                            </tr>
+                            <tr>
+                                <th>Équipement de démarrage</th>
+                                <td>
+                                Choisissez A ou B :
+                                <ul>
+                                    <li>
+                                    <span class="option-title">Option A :</span>
+                                    Grande hache, 4 haches à main, pack de l'explorateur, et 15 PO
+                                    </li>
+                                    <li>
+                                    <span class="option-title">Option B :</span>
+                                    75 PO
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="../public/images/rodeur.png" alt="Rodeur Image" class="image_classes" frameborder="0">
+                </li>
+                <li id="voleur" class="liste_classe">
+                    <div class="texte_classes">
+                        <div class="titre_classes">
+                            <img src="../public/images/voleur_logo.jpeg" alt="Voleur Logo" class="logo_classes">
+                            <h4> 
+                                Voleur
+                            </h4>
+                        </div>
+                        <p>
+                            Les voleurs sont des maîtres de la furtivité, de la dextérité et de la ruse. 
+                            Ils excellent dans les compétences de crochetage, de désamorçage de pièges, 
+                            et d'attaques sournoises.
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Capacité primaire</th>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <th>Matrice de points de vie</th>
+                                <td>d12 par niveau barbare</td>
+                            </tr>
+                            <tr>
+                                <th>Jets de sauvegarde</th>
+                                <td>Force et Constitution</td>
+                            </tr>
+                            <tr>
+                                <th>Compétences</th>
+                                <td>
+                                Choisissez 2 :
+                                <ul>
+                                    <li>Manipulation des animaux</li>
+                                    <li>Athlétisme</li>
+                                    <li>Intimidation</li>
+                                    <li>Nature</li>
+                                    <li>Perception</li>
+                                    <li>Survie</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Compétences en armes</th>
+                                <td>Armes simples et martiales</td>
+                            </tr>
+                            <tr>
+                                <th>Entraînement aux armures</th>
+                                <td>Armures et boucliers légers et moyens</td>
+                            </tr>
+                            <tr>
+                                <th>Équipement de démarrage</th>
+                                <td>
+                                Choisissez A ou B :
+                                <ul>
+                                    <li>
+                                    <span class="option-title">Option A :</span>
+                                    Grande hache, 4 haches à main, pack de l'explorateur, et 15 PO
+                                    </li>
+                                    <li>
+                                    <span class="option-title">Option B :</span>
+                                    75 PO
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="../public/images/voleur.png" alt="Voleur Image" class="image_classes" frameborder="0">
+                </li>
+                <li id="sorcier" class="liste_classe">
+                    <div class="texte_classes">
+                        <div class="titre_classes">
+                            <img src="../public/images/sorcier_logo.jpeg" alt="Sorcier Logo" class="logo_classes">
+                            <h4> 
+                                Sorcier
+                            </h4>
+                        </div>
+                        <p>
+                            Les sorciers sont des lanceurs de sorts qui tirent leur magie d'une 
+                            source innée, souvent liée à une lignée magique ou à un pacte avec 
+                            une entité puissante. Ils possèdent une grande variété de sorts offensifs 
+                            et utilitaires.
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Capacité primaire</th>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <th>Matrice de points de vie</th>
+                                <td>d12 par niveau barbare</td>
+                            </tr>
+                            <tr>
+                                <th>Jets de sauvegarde</th>
+                                <td>Force et Constitution</td>
+                            </tr>
+                            <tr>
+                                <th>Compétences</th>
+                                <td>
+                                Choisissez 2 :
+                                <ul>
+                                    <li>Manipulation des animaux</li>
+                                    <li>Athlétisme</li>
+                                    <li>Intimidation</li>
+                                    <li>Nature</li>
+                                    <li>Perception</li>
+                                    <li>Survie</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Compétences en armes</th>
+                                <td>Armes simples et martiales</td>
+                            </tr>
+                            <tr>
+                                <th>Entraînement aux armures</th>
+                                <td>Armures et boucliers légers et moyens</td>
+                            </tr>
+                            <tr>
+                                <th>Équipement de démarrage</th>
+                                <td>
+                                Choisissez A ou B :
+                                <ul>
+                                    <li>
+                                    <span class="option-title">Option A :</span>
+                                    Grande hache, 4 haches à main, pack de l'explorateur, et 15 PO
+                                    </li>
+                                    <li>
+                                    <span class="option-title">Option B :</span>
+                                    75 PO
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="../public/images/sorcier.png" alt="Sorcier Image" class="image_classes" frameborder="0">
+                </li>             
+                <li id="warlock" class="liste_classe">
+                    <div class="texte_classes">
+                        <div class="titre_classes">
+                            <img src="../public/images/warlock_logo.jpeg" alt="Warlock Logo" class="logo_classes">
+                            <h4> 
+                                Warlock
+                            </h4>
+                        </div>
+                        <p>
+                            les warlocks sont des lanceurs de sorts qui obtiennent leur magie 
+                            en concluant des pactes avec des entités puissantes telles que des
+                            démons, des fées ou des êtres cosmiques. Ils ont accès à des sorts
+                            uniques et peuvent invoquer des familiers ou des armes magiques.
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Capacité primaire</th>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <th>Matrice de points de vie</th>
+                                <td>d12 par niveau barbare</td>
+                            </tr>
+                            <tr>
+                                <th>Jets de sauvegarde</th>
+                                <td>Force et Constitution</td>
+                            </tr>
+                            <tr>
+                                <th>Compétences</th>
+                                <td>
+                                Choisissez 2 :
+                                <ul>
+                                    <li>Manipulation des animaux</li>
+                                    <li>Athlétisme</li>
+                                    <li>Intimidation</li>
+                                    <li>Nature</li>
+                                    <li>Perception</li>
+                                    <li>Survie</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Compétences en armes</th>
+                                <td>Armes simples et martiales</td>
+                            </tr>
+                            <tr>
+                                <th>Entraînement aux armures</th>
+                                <td>Armures et boucliers légers et moyens</td>
+                            </tr>
+                            <tr>
+                                <th>Équipement de démarrage</th>
+                                <td>
+                                Choisissez A ou B :
+                                <ul>
+                                    <li>
+                                    <span class="option-title">Option A :</span>
+                                    Grande hache, 4 haches à main, pack de l'explorateur, et 15 PO
+                                    </li>
+                                    <li>
+                                    <span class="option-title">Option B :</span>
+                                    75 PO
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="../public/images/warlock.png" alt="Warlock Image" class="image_classes" frameborder="0">
+                </li>
+                <li id="magicien" class="liste_classe">
+                    <div class="texte_classes">
+                        <div class="titre_classes">
+                            <img src="../public/images/magicien_logo.jpeg" alt="Magicien Logo" class="logo_classes">
+                            <h4> 
+                                Magicien
+                            </h4>
+                        </div>
+                        <p>
+                            Les magiciens sont des lanceurs de sorts qui acquièrent leur magie 
+                            par l'étude et la pratique. Ils possèdent une vaste gamme de sorts 
+                            couvrant divers aspects de la magie, y compris l'attaque, la défense, 
+                            et la manipulation de l'environnement. Leur race peut influencer les types de magie
+                            auxquels ils ont accès.
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Capacité primaire</th>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <th>Matrice de points de vie</th>
+                                <td>d12 par niveau barbare</td>
+                            </tr>
+                            <tr>
+                                <th>Jets de sauvegarde</th>
+                                <td>Force et Constitution</td>
+                            </tr>
+                            <tr>
+                                <th>Compétences</th>
+                                <td>
+                                Choisissez 2 :
+                                <ul>
+                                    <li>Manipulation des animaux</li>
+                                    <li>Athlétisme</li>
+                                    <li>Intimidation</li>
+                                    <li>Nature</li>
+                                    <li>Perception</li>
+                                    <li>Survie</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Compétences en armes</th>
+                                <td>Armes simples et martiales</td>
+                            </tr>
+                            <tr>
+                                <th>Entraînement aux armures</th>
+                                <td>Armures et boucliers légers et moyens</td>
+                            </tr>
+                            <tr>
+                                <th>Équipement de démarrage</th>
+                                <td>
+                                Choisissez A ou B :
+                                <ul>
+                                    <li>
+                                    <span class="option-title">Option A :</span>
+                                    Grande hache, 4 haches à main, pack de l'explorateur, et 15 PO
+                                    </li>
+                                    <li>
+                                    <span class="option-title">Option B :</span>
+                                    75 PO
+                                    </li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="../public/images/magicien.png" alt="Magicien Image" class="image_classes" frameborder="0">
+
+                </li>
+            </ul>
+            <h3 id="races">Races de l'édition 2024:</h3>
+            <ul>
+                <li>Humain</li>
+                <li>Elfe</li>
+                <li>Nain</li>
+                <li>Halfelin</li>
+                <li>Orc</li>
+                <li>Gnome</li>
+                <li>Tieffelin</li>
+                <li>Dragonborn</li>
+            </ul>
+            <h2 id="comment_se_lancer">Comment se lancer?</h2>
+            <h3 id="creer_perso">Créer un personnage</h3>
+            <p>Pour commencer à jouer à Dungeons & Dragons, la première étape consiste à créer un personnage. 
+                Vous pouvez utiliser les livres de règles pour choisir une race, une classe, et attribuer des 
+                caractéristiques à votre personnage.</p>
+                
+            <h3 id="trouver_un_groupe">Trouver un groupe de jeu</h3>
+            <p>Rejoindre un groupe de jeu est essentiel pour jouer à D&D. Vous pouvez trouver des groupes 
+                locaux dans des magasins de jeux, des clubs de jeux de rôle, ou en ligne sur des 
+                plateformes dédiées aux jeux de rôle.</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OK-LrV2eBQ8"></iframe>    
+        </div>
+    </main>
+    <footer class="footer">
+        <p>© 2024 Dungeons & Dragons. Tous droits réservés.</p>
+        <p>Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast,
+            the dragon ampersand, and all other Wizards of the Coast 
+            product names, campaign settings, their respective logos, 
+            and The World's Greatest Roleplaying Game are © and trademark 
+            Wizards of the Coast in the U.S.A. and other countries. © 2025 Wizards.</p>
+    </footer>
+</body>
+</html>
